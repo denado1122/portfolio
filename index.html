@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Hosam Abdelaziz</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav id="mainNav">
+      <a href="#" class="logo">Modren Clinic Dr.Hosam Abdelaziz<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#booking" class="nav-cta">Book Now</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-text">
+        <div class="hero-badge">Award-Winning Dental Clinic</div>
+        <h1>Your Smile,<br /><em>Perfected.</em></h1>
+        <p class="hero-desc">
+          Experience dental care that combines cutting-edge technology with a
+          gentle, patient-first approach. Because a healthy smile is your most
+          powerful asset.
+        </p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn-primary">Book Appointment →</a>
+          <a href="#services" class="btn-outline">Our Services</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num">15+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div>
+            <div class="stat-num">8k+</div>
+            <div class="stat-label">Happy Patients</div>
+          </div>
+          <div>
+            <div class="stat-num">4.9★</div>
+            <div class="stat-label">Patient Rating</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-icon">🦷</div>
+          <h3>Free Consultation</h3>
+          <p>
+            New patients receive a complimentary smile assessment and treatment
+            plan tailored to your needs.
+          </p>
+          <div class="rating-row">
+            <span class="stars">★★★★★</span>
+            <span class="rating-text">4.9 · Over 600 reviews</span>
+          </div>
+          <a
+            href="#booking"
+            class="btn-primary"
+            style="width: 100%; justify-content: center"
+            >Claim Your Spot</a
+          >
+          <div class="floating-pill top">
+            <span class="pill-dot"></span> Next available: Today 3:00 PM
+          </div>
+          <div class="floating-pill bottom">🏆 Top Clinic 2024</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="section-header reveal">
+        <div class="section-tag">What We Offer</div>
+        <h2>Comprehensive Dental<br />Care for Every Smile</h2>
+        <p class="section-sub">
+          From routine check-ups to full smile transformations, we offer a
+          complete range of dental services.
+        </p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon icon-sage">🪥</div>
+          <h3>Preventive Care</h3>
+          <p>
+            Regular cleanings, exams, and X-rays to keep your teeth healthy and
+            catch issues early before they become costly.
+          </p>
+          <a href="#booking" class="service-link">Book a cleaning →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon icon-gold">✨</div>
+          <h3>Teeth Whitening</h3>
+          <p>
+            Professional-grade whitening treatments that deliver dramatic
+            results in a single visit — up to 8 shades brighter.
+          </p>
+          <a href="#booking" class="service-link">Brighten your smile →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon icon-sage">🦷</div>
+          <h3>Dental Implants</h3>
+          <p>
+            Permanent, natural-looking replacements for missing teeth.
+            Titanium-rooted for lifelong strength and stability.
+          </p>
+          <a href="#booking" class="service-link">Learn more →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon icon-cream">😁</div>
+          <h3>Invisalign®</h3>
+          <p>
+            Straighten your teeth discreetly with clear aligners. No wires, no
+            brackets — just a confident new smile.
+          </p>
+          <a href="#booking" class="service-link">Get assessed →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon icon-gold">💎</div>
+          <h3>Porcelain Veneers</h3>
+          <p>
+            Ultra-thin porcelain shells that instantly correct chips, gaps,
+            stains, and uneven teeth for a flawless look.
+          </p>
+          <a href="#booking" class="service-link">See transformations →</a>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon icon-sage">🔬</div>
+          <h3>Root Canal Therapy</h3>
+          <p>
+            Painless, precision root canal treatment using the latest rotary
+            technology and local anesthesia techniques.
+          </p>
+          <a href="#booking" class="service-link">Book consultation →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-visual reveal">
+        <div class="about-img-frame">🏥</div>
+        <div class="about-badge-float">
+          <div class="num">20+</div>
+          <div class="lbl">Awards Won</div>
+        </div>
+      </div>
+      <div class="about-text">
+        <div class="section-tag">About Our Practice</div>
+        <h2>A Sanctuary for<br /><em>Modern Dentistry</em></h2>
+        <p>
+          Founded in 2009, Lumina Dental has been redefining what a dental visit
+          feels like. We believe dental care should be stress-free, transparent,
+          and rooted in genuine relationships with our patients.
+        </p>
+        <p>
+          Our state-of-the-art clinic in the heart of the city features the
+          latest digital imaging, laser dentistry, and sedation options — all
+          designed around your comfort.
+        </p>
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="feat-icon">🛡️</div>
+            <div class="feat-text">
+              <strong>Certified & Accredited</strong>
+              <span
+                >Fully accredited by the national dental board with
+                ISO-certified sterilization protocols.</span
+              >
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="feat-icon">💻</div>
+            <div class="feat-text">
+              <strong>Digital Dentistry</strong>
+              <span
+                >Same-day crowns, 3D scanning, and digital X-rays for faster,
+                more accurate care.</span
+              >
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="feat-icon">🌱</div>
+            <div class="feat-text">
+              <strong>Eco-Conscious Practice</strong>
+              <span
+                >Paperless records, biodegradable materials, and sustainable
+                supply chains.</span
+              >
+            </div>
+          </div>
+        </div>
+        <a href="#booking" class="btn-primary">Schedule a Visit →</a>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team">
+      <div class="section-header reveal">
+        <div class="section-tag">Meet the Doctors</div>
+        <h2>Caring Hands Behind<br />Every Smile</h2>
+        <p class="section-sub">
+          Our specialists bring decades of combined experience and a shared
+          commitment to exceptional, compassionate care.
+        </p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal">
+          <div class="team-avatar">👨‍⚕️</div>
+          <h3>Dr. Ahmed Hossam</h3>
+          <div class="team-role">Lead Dentist & Founder</div>
+          <p class="team-bio">
+            Dr. Hossam Abdelaziz combines modern dental technology with
+            compassionate care to deliver personalized treatment and beautiful
+            results for every smile.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+      <div class="section-header reveal">
+        <div class="section-tag">Patient Stories</div>
+        <h2>Real Smiles,<br />Real Results</h2>
+        <p class="section-sub">
+          Don't take our word for it — hear from our patients who transformed
+          their smiles with us.
+        </p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">
+            "I was terrified of the dentist for years. Dr. Mitchell changed
+            everything — I actually look forward to my check-ups now. My veneers
+            look absolutely incredible."
+          </p>
+          <div class="testi-author">
+            <div class="testi-avatar">😊</div>
+            <div>
+              <div class="testi-name">Amelia R.</div>
+              <div class="testi-date">Porcelain Veneers — March 2025</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">
+            "Got Invisalign at 34 and I wish I'd done it sooner. The team was
+            supportive throughout the whole journey. Best investment I've made
+            in myself."
+          </p>
+          <div class="testi-author">
+            <div class="testi-avatar">😄</div>
+            <div>
+              <div class="testi-name">David K.</div>
+              <div class="testi-date">Invisalign — January 2025</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">
+            "Two implants, zero pain, and a six-month transformation that my
+            whole family noticed. The facility is spotless and the staff treats
+            you like royalty."
+          </p>
+          <div class="testi-author">
+            <div class="testi-avatar">🙂</div>
+            <div>
+              <div class="testi-name">Sandra M.</div>
+              <div class="testi-date">Dental Implants — Nov 2024</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section id="booking">
+      <div class="booking-info reveal">
+        <div class="section-tag">Get in Touch</div>
+        <h2>Let's Start Your<br /><em>Smile Journey</em></h2>
+        <p>
+          Book your consultation online, or reach out to our friendly team —
+          we're happy to answer any questions.
+        </p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-detail">
+              <strong>Our Clinic</strong>
+              <span>96 Mostafa al-nahas</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div class="contact-detail">
+              <strong>Call Us</strong>
+              <span>+20 1115086424</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-detail">
+              <strong>Email</strong>
+              <span>Husam_ziz@yahoo.com</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🕐</div>
+            <div class="contact-detail">
+              <strong>Opening Hours</strong>
+              <span>Sat–Thu 5Pm–10pm </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="booking-form reveal">
+        <h3>Book an Appointment</h3>
+        <p>Fill in your details and we'll confirm within 2 hours.</p>
+        <div id="bookingFormWrap">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="Sarah" />
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="Johnson" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="tel" placeholder="+44 7700 900000" />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="sarah@email.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Service Required</label>
+            <select>
+              <option value="">Select a service...</option>
+              <option>Preventive Check-Up</option>
+              <option>Teeth Whitening</option>
+              <option>Dental Implants</option>
+              <option>Invisalign Consultation</option>
+              <option>Porcelain Veneers</option>
+              <option>Root Canal Therapy</option>
+              <option>Emergency Dental Care</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Preferred Date</label>
+              <input type="date" />
+            </div>
+            <div class="form-group">
+              <label>Preferred Time</label>
+              <select>
+                <option>Morning (8am–12pm)</option>
+                <option>Afternoon (12pm–4pm)</option>
+                <option>Evening (4pm–7pm)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Additional Notes</label>
+            <textarea
+              placeholder="Any concerns, previous dental history, or questions for your dentist..."
+            ></textarea>
+          </div>
+          <button class="form-submit" onclick="submitForm()">
+            Request Appointment →
+          </button>
+        </div>
+        <div class="success-msg" id="successMsg">
+          <span class="check">✅</span>
+          <strong>Appointment Requested!</strong><br />
+          <span style="color: var(--warm-gray); font-size: 0.85rem"
+            >We'll confirm your slot within 2 hours via email or phone.</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo"
+            >Lumina<span style="color: var(--sage)">.</span>Dental</a
+          >
+          <p>
+            Exceptional dental care in a calm, welcoming environment. Because
+            you deserve to love your smile.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Preventive Care</a></li>
+            <li><a href="#services">Teeth Whitening</a></li>
+            <li><a href="#services">Dental Implants</a></li>
+            <li><a href="#services">Invisalign</a></li>
+            <li><a href="#services">Veneers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Clinic</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#booking">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Accessibility</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Lumina Dental. All rights reserved.</span>
+        <div class="footer-socials">
+          <a href="#" class="social-btn">𝕏</a>
+          <a href="#" class="social-btn">in</a>
+          <a href="#" class="social-btn">📸</a>
+          <a href="#" class="social-btn">▶</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
